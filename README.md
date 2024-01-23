@@ -1,6 +1,6 @@
 # Quiz
 
-<h1 align="center">Clima na cidade</h1>
+<h1 align="center">Quiz de curiosidades</h1>
 
 <p align="center">
  Esse quiz foi desenvolvido para o aperfeiçoamento do conhecimento nas tecnologias WEB. 
