@@ -18,7 +18,7 @@
 
 <br>
 
-![image](./assets/preview.png)
+![image](./assests/preview.png)
 
 
 ## 🚀 Tecnologias
