@@ -33,7 +33,7 @@
 ## 💻 Projeto
 
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://helenapl145.github.io/quiz/)
 
 Esse projeto está sob a licença MIT.
 
