@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#start {
+    text-align: center;
+    margin-top: 20vw;
+}
+
+#start a {
+    background-color: red;
+    padding-block: 3rem;
+    padding-inline: 10rem;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#start a:hover{
+    background-color: green;
+}
+
+#content {
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-bottom: 2px solid white;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+nav img {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+main {
+    background-color: red;
+    border-radius: 3px;
+
+    width: 50vw;
+    height: 70vh;
+
+    padding: 40px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+form div {
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: 70px 70px;
+    gap: 0.5rem;
+}
+
+form div input {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div input:hover{
+    filter: brightness(1.2);
+}
+
+#buttonSumbit{
+    display: none;
+    float: right;
+    margin-top: 0.5rem;
+
+    background-color: green;
+    width: 100px;
+    padding: 0.5rem;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#buttonSumbit:hover{
+    filter: brightness(1.2);
+}
+
+#contentTry{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 5rem;
+}
+
+#contentGif{
+    display: none;
+}
+
+#buttonTry {
+    display: none;
+    margin-top: 0.5rem;
+
+    background-color: blue;
+    width: 300px;
+    padding: 1rem;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#buttonTry:hover{
+    filter: brightness(1.2);
+}
+
+footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+footer a{
+    color: red;
+}
+
+footer a:hover{
+    font-weight: bolder;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect{
+    background-color: blue;
+    color: white;
+}
